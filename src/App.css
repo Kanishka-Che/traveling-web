@@ -3,4 +3,85 @@ h2 {
     color: blue; 
   }
   
+
+.navBarSection {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.logo .icon {
+  margin-right: 8px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navlists {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #007BFF;
+}
+
+.btn {
+  background-color: aqua;
+  border-radius: 20px 20px;
+  padding: 10px 20px;
+  outline: aqua;
+  margin-left: 20px;
+  cursor: pointer;
+  
+}
+
+.btn a {
+  color:var(--blueColor);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background:var(--SecondaryColor);
+}
+
+  
   

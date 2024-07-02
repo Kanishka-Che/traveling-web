@@ -1,10 +1,19 @@
 import React from 'react';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
 
 const App = () => {
   return (
-    <h2>App</h2>
+    <>
+   <Navbar/>
+  { /*<Home/>
+   <Main/> 
+   <Footer/>*/}
+   </>
+
+
   );
 }
 
-export default App;
+export default App
