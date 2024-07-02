@@ -48,6 +48,10 @@ h2 {
   margin: 0;
   padding: 0;
 }
+.icon{
+  font-size: 30px;
+  cursor:pointer;
+}
 
 .navItem {
   margin-left: 20px;
